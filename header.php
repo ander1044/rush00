@@ -28,7 +28,7 @@ echo
                                         </ul>-->
                             </li>
                             <li>Contact Us</li>
-                            <li class="sign-up"><a href="index.php">Sign Up</a></li>
+                            <li class="sign-up"><a href="register.php">Sign Up</a></li>
                             <li class="sign-in"><a href="index.php">Sign In</a></li>
                         </ul>
                     </div>

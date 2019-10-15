@@ -73,15 +73,15 @@ nav {
     background: cadetblue;
 }
 
-.menu ul li:hover {
+.menu ul li a:hover {
     color: goldenrod
 }
 
-.menu ul ul {
+.menu ul ul a {
     display: none;
 }
 
-.menu ul ul li {
+.menu ul ul li a {
     display: none;
     display: inline-block;
 }

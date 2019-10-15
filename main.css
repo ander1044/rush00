@@ -1,0 +1,144 @@
+body {
+    background: #fefefe;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.container {
+    width: 100%;
+    padding-right: -15px;
+    padding-left: -15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.row {
+    margin: 0 auto;
+    width: 80%;
+}
+
+header h1 {
+    text-align: center;
+    padding: 1em;
+}
+
+.menu {
+    text-align: right;
+}
+
+nav {
+    background: cadetblue;
+}
+
+.sign-in {
+    padding: 4px !important;
+    background: wheat !important;
+    color: cadetblue !important;
+}
+
+.menu ul {
+    list-style-type: none;
+}
+
+.logo {
+    display: inline-block;
+    float: left;
+    line-height: 60px;
+    color: wheat;
+    font-size: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.icon {
+    padding: 10px;
+    margin: 10px;
+    font-size: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border: 3px solid wheat;
+}
+
+.menu ul li {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 0.5em;
+    font-size: 15px;
+    display: inline-block;
+    color: wheat;
+    line-height: 50px;
+    font-weight: bold;
+    height: 50px;
+    background: cadetblue;
+}
+
+.menu ul li:hover {
+    color: goldenrod
+}
+
+.menu ul ul {
+    display: none;
+}
+
+.menu ul ul li {
+    display: none;
+    display: inline-block;
+}
+
+.menu ul li:hover>ul {
+    display: block;
+    position: absolute;
+}
+
+.menu ul ul {
+    width: 10px;
+    /* margin: -10px; */
+    padding-left: 0px;
+    margin-left: -10px;
+    margin-top: 10px;
+}
+
+.jumbotron {
+    background: #dbdbdb;
+    height: 550px;
+    background: url('images/b2.jpg')repeat 0 0;
+}
+
+.jumbotron-heading {
+    color: wheat;
+    font-size: 50px;
+    font-weight: bold;
+    top: 300px;
+    position: absolute;
+    background: cadetblue;
+    padding: 10px;
+}
+
+.intro {
+    background: cadetblue;
+    height: 450px;
+}
+
+.header-trends {
+    font-weight: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-size: 25px;
+    padding-top: 25px;
+    color: wheat;
+}
+
+.home-categories {
+    background: rgb(213, 214, 214);
+    height: 450px;
+}
+
+.header-cate {
+    font-weight: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-size: 25px;
+    padding-top: 25px;
+    color: cadetblue;
+}

@@ -30,6 +30,7 @@ echo
                             </li>
                             <li class="sign-up"><a class="link" href="register.php">Sign Up</a></li>
                             <li class="sign-up"><a class="link" href="login.php">Sign In</a></li>
+                            <li class="sign-up"><a class="link" href="cart.php">Cart</a></li>
                             <!--<li class="sign-up"><a class="link" href="login.php">Sign Out</a></li>-->
                         </ul>
                     </div>

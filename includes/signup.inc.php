@@ -11,8 +11,8 @@ if(isset($_POST['signup-submit']))
     $Passwordrepeat = $_POST['re-pass'];
     $Number = $_POST['contact'];
     
-    if(empty($Firstname) || empty($Firstname) || empty($Firstname) || empty($Firstname) || empty($Firstname) 
-    || empty($Firstname) || empty($Firstname))
+    if(empty($Firstname) || empty($lastname) || empty($Email) || empty($Emailrepeat) || empty($Password) 
+    || empty($Passwordrepeat) || empty($Number))
     {
         header("Location : ../register.php?error=emptyfileds&name=".$Firstname."&surname=".$Lastname."&mail=".$Email);
         exit();

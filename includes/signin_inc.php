@@ -1,7 +1,7 @@
 <?php
 if (isset($_POST['login-submit']))
 {
-    require 'dbh.inc.php';
+    require 'dbh_inc.php';
 
     $Email = $_POST['email'];
     $Password = $_POST['pass'];
@@ -17,7 +17,7 @@ if(empty($Email) || empty($Password))
             $stmt = mysqli_stmt_init($conn);
         if (!mysqli_stmt_prepare($stmt, $sql))
         {
-            header("Location : ../admin-index.php?error=sqlerror");
+           // header("Location : ../admin-index.php?error=sqlerror");
         exit();
         }
         else
@@ -31,7 +31,7 @@ if(empty($Email) || empty($Password))
         }
         if ($runPass == FALSE)
         {
-            header("Location : ../admin-index.php?error=wrongpass");
+          //  header("Location : ../admin-index.php?error=wrongpass");
             exit();
         }
         else if ($runPass == TRUE)
@@ -39,13 +39,13 @@ if(empty($Email) || empty($Password))
             session_start();
             $_SESSION['userId'] = $row['idUsers'];
             $_SESSION['user'] = $row['firstUsers'];
-            header("Location : ../admin-index.php?login=success");
+           // header("Location : ../admin-index.php?login=success");
             exit();
             
         }
         else 
         {
-            header("Location : ../admin-index.php?error=wrongpass");
+            //header("Location : ../admin-index.php?error=wrongpass");
             exit();
         }
     }
@@ -53,6 +53,6 @@ if(empty($Email) || empty($Password))
     }
 else
 {
-    header("Location : ../admin-index.php");
+  // header("Location : ../admin-index.php");
         exit();
 }

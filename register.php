@@ -14,7 +14,7 @@ require "header.php";
                 <div class="row">
                     <h1 class="register-header">-Sign Up-</h1>
                     <div class="reg-form">
-                        <form method="POST" action="includes/signup.inc.php">
+                        <form method="POST" action="includes/signup_inc.php">
                             <input type="text" name="name" placeholder="First Name"><br/><br/>
                             <input type="text" name="surname" placeholder="Last Name"><br/><br/>
                             <input type="text" name="mail" placeholder="Email"><br/><br/>

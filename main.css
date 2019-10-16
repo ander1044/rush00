@@ -1,5 +1,5 @@
 body {
-    background: #fefefe;
+    background: #f5f5f5;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
@@ -102,7 +102,17 @@ nav {
 .jumbotron {
     background: #dbdbdb;
     height: 550px;
-    background: url('images/b2.jpg')repeat 0 0;
+    background: url('images/sk1.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.minijumbo {
+    background: #dbdbdb;
+    height: 150px;
+    background: url('images/images.jpeg');
+    background-repeat: no-repeat;
+    background-size: 100%;
 }
 
 .jumbotron-heading {
@@ -118,6 +128,7 @@ nav {
 .intro {
     background: cadetblue;
     height: 450px;
+    text-align: center;
 }
 
 .header-trends {
@@ -126,12 +137,14 @@ nav {
     text-align: center;
     font-size: 25px;
     padding-top: 25px;
+    margin-bottom: 10px;
     color: wheat;
 }
 
 .home-categories {
-    background: rgb(213, 214, 214);
+    background: #f5f5f5;
     height: 450px;
+    text-align: center;
 }
 
 .header-cate {
@@ -141,6 +154,7 @@ nav {
     font-size: 25px;
     padding-top: 25px;
     color: cadetblue;
+    margin-bottom: 10px;
 }
 
 .register-class {
@@ -172,6 +186,63 @@ nav {
 }
 
 .footer {
-    background: #2c2c2c;
+    background: #f5f5f5;
     height: 200px;
+}
+
+.card {
+    width: 25%;
+    background: white;
+    padding: 5px;
+    display: inline-block;
+}
+
+.card-image {
+    padding: 10px;
+}
+
+.card-info {
+    padding: 5px;
+    color: wheat;
+    background: cadetblue;
+    font-weight: bold;
+}
+
+.link {
+    color: wheat;
+    text-decoration: none;
+}
+
+.shop-class {
+    background: #f5f5f5;
+    height: auto;
+    padding: 20px;
+}
+
+.shop-panel {
+    width: 20%;
+    display: inline-block;
+}
+
+.shop-product-list {
+    width: 70%;
+    display: inline-block;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+.product-header {
+    font-size: 2em;
+}
+
+.class4 {
+    font-size: 3em;
+}
+
+.card-total {
+    width: 23%;
+    padding: 3px;
+    display: inline-block;
+    margin: 2px;
+    background: cadetblue;
+    color: white;
 }

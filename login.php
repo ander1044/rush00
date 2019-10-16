@@ -1,5 +1,4 @@
-<html>
-    <?php
+<?php
 session_start();
 
 if(isset($_SESSION['logged_in']) && $_SESSION['logged_in'] == true){
@@ -13,20 +12,35 @@ if(isset($_POST['username']) && isset($_POST['password'])){
     }
 }
 ?>
+<?php
+    require "header.php";
+?>
+<main>
+        <section class="minijumbo">
+                <div class="container">
+                    <div class="row">
+                        
+                    </div>
+                </div>
+        </section>
+        <section class="register-class">
+            <div class="container">
+                <div class="row">
+                    <h1 class="register-header">-Sign In-</h1>
+                    <div class="reg-form">
+                        <form method="POST" action="login.php">
+                            <input type="text" name="username" placeholder="Username"><br><br/>
+                            <input type="password" name="password" placeholder="Password"><br/><br/>
+                            <button class ="primary-button" type="submit" name="signup-submit">Sign In</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+</main>
+<?php
+    require "footer.php";
+?>
+</body>
 
-    <head>
-        <title>login</title>
-        <link rel="stylesheet" href="style.css"/>
-    </head>
-    <body>
-            <div class="form">
-        <form method="POST" action="login.php">
-            Username:<br/>
-            <input type="text" name="username"><br>
-            Password:<br/>
-            <input type="password" name="password"><br/>
-            <input type="submit" value="login">
-        </form>
-        </div>
-    </body>
 </html>

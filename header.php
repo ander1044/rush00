@@ -7,6 +7,7 @@ echo
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="main.css" />
+    <title>Skateboard World</title>
 </head>
 <body>
     <header>
@@ -15,11 +16,11 @@ echo
                 <div class="row">
                     <div class="menu">
                         <div class="logo">
-                            <p><span class="icon">SK</span>Skateboard World </p>
+                            <p><span class="icon">SK</span><a class="link" href="index.php">Skateboard World</a></p>
                         </div>
                         <ul>
-                            <li><a href="index.php">Home</a></li>
-                            <li><a href="shop.php">Home</a></li>
+                            <li><a class="link" href="index.php">Home</a></li>
+                            <li><a class="link" href="shop.php">Shop</a></li>
                             <!--<li>Services
                                         <ul>
                                             <li>Cloud Services</li>
@@ -27,9 +28,9 @@ echo
                                             <li>Graphics and Development</li>
                                         </ul>-->
                             </li>
-                            <li>Contact Us</li>
-                            <li class="sign-up"><a href="register.php">Sign Up</a></li>
-                            <li class="sign-in"><a href="index.php">Sign In</a></li>
+                            <li class="sign-up"><a class="link" href="register.php">Sign Up</a></li>
+                            <li class="sign-up"><a class="link" href="login.php">Sign In</a></li>
+                            <!--<li class="sign-up"><a class="link" href="login.php">Sign Out</a></li>-->
                         </ul>
                     </div>
                 </div>
